@@ -6,7 +6,7 @@ function Hero() {
         <div className=" flex justify-between items-center flex-col sm:flex-row">
           <div className=" w-full ">
             
-            <img src="images/hero.png" alt="" className="h-[400px]" />
+            <img src="images/hero.png" alt="" className="h-[400px] hidden sm:block" />
           </div>
 
           <div className=" max-w-4xl bg-[#000000ce] py-14 px-4 rounded-3xl border-2 border-white">
